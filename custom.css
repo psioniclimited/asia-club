@@ -1,0 +1,121 @@
+#map {
+    margin-bottom: 80px;
+    display: inline;
+    padding: 40px 0;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+#reports {
+    margin-bottom: 80px;
+    display: inline;
+    padding: 60px 0;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.report-header-col {
+    margin-top: 80px;
+}
+.report-div {
+    position: relative;
+    text-align: center;
+}
+.report-div img{
+    position: relative;
+    width: 165px;
+    height: 165px;
+}
+
+#important-number {
+    margin-bottom: 80px;
+    display: inline;
+    padding: 60px 0;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.important-number-header-col {
+    margin-top: 40px;
+}
+.important-number-col02 {
+    height: 280px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    padding: 15px;
+    margin: 15px;
+    background: #fff;
+}
+.important-number-div {
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    flex: 1;
+}
+.important-number-div img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+}
+.important-number-div:hover img{
+    background: rgba(0,0,0, 0.2);
+}
+.important-number-header-paragraph {
+    font-weight: 600;
+    margin-top: 10px;
+}
+.important-number-text-number {
+
+}
+.important-number-title-paragraph {
+    margin-top: 10px;
+    font-size: 21px;
+}
+.bn-label {
+    background: #1A8B49 !important;
+}
+.breaking-news-ticker {
+    border: 0.5px solid #1A8B49 !important;
+}
+.footer_bootomRight01 a{
+    color: #fff !important;
+    text-decoration: none;
+}
+@media (min-width: 1921px){
+    .footer_bootomleft01 {
+        text-align: left !important;
+    }
+    .footer_bootomRight01 {
+        text-align: right !important;
+    }
+}
+
+@media (min-width: 1800px) and (max-width: 1920px) {
+    .footer_bootomleft01 {
+        text-align: left !important;
+    }
+    .footer_bootomRight01 {
+        text-align: right !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1799px) {
+    .footer_bootomleft01 {
+        text-align: left !important;
+    }
+    .footer_bootomRight01 {
+        text-align: right !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+
+}
+@media (max-width: 767px) {
+
+}
